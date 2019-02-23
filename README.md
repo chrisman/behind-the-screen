@@ -1,10 +1,12 @@
 # Behind The Screen
 
-In what ways does DMing prepare you for/make you better at your job?
+> In what ways does DMing prepare you for/make you better at your job?
+
+This is a presentation about how playing D&D (and other <abbr title="tabletop role playing games">ttrpgs</abbr>) can make you better at your job.
 
 ## About
 
-Presentation framework: [reveal.js]
+The presentation framework is [reveal.js] because it is a framework that allows you to write slides in plain text/markdown, which makes it easy to check your work into version control and easy to collaborate with other people on creating slides/content.
 
 Content is plain markdown imported by index.html. To the very small degree that it is needed, custom css is written in /lib/css/custom.css.
 

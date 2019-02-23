@@ -2,11 +2,14 @@
 
 note: 
 
-Speaker Notes
+Improv lessons?
+
+Images preseved in subsequent slides to show how images work as
 
 
 <!-- Image: a cute baby reading _HTML for Babies //-->
 <!-- .slide: data-background-image="assets/img/baby.jpg" data-background-size="contain" -->
+# text on a background
 
 note:
 
