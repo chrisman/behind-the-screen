@@ -90,6 +90,15 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
           { src: 'plugin/notes/notes.js', async: true }
         ]
       });
+
+
+      // Hook into the `data-state` attribute of a slide section
+      Reveal.addEventListener( 'roll', function() {
+        const max = 20;
+        const min = 1;
+        const rand = Math.floor(Math.random() * (max - min)) + min;
+        document.querySelector('#dicetray').innerText = rand;
+      }, false );
     </script>
   </body>
 </html>
